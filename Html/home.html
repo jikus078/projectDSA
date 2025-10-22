@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Big Bro sQuad.com</title>
+    <script type="text/javascript" src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/CSS home.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="img/dbell2.png">
+                <img src="img/dbell2.png" class="logonav">
+            </a>
+
+            <div class="nav-profile">
+                <p class="nav-profile-name">Buy</p>
+                <div class="nav-profile-cart">
+                    <i class="fas fa-cart-shopping"></i>
+                    <div class="cartcount" style="font-size: 1vw;">
+                        5
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="sidebar-search" placeholder="Search something...">
+
+            <a href="#" class="sidebar-items">
+                Menu 1
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 2
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 3
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 4
+            </a>
+            <a href="#" class="sidebar-items">
+                Menu 5
+            </a>
+        </div>
+        <div class="product">
+            <div class="product-items">
+                <img class="product-img" src="img/BTS.png" alt="T-shirt">
+                <p style="font-size: 1.2vw;">BBQ T-shirt</p>
+                <p style="font-size: 1.2vw;">500 THB</p>
+            </div>
+            <div class="product-items">
+                <img class="product-img" src="img/hoodie.png" alt="Hoodie">
+                <p style="font-size: 1.2vw;">BBQ Hoodie</p>
+                <p style="font-size: 1.2vw;">500 THB</p>
+            </div>
+            <div class="product-items">
+                <img class="product-img" src="img/sp2.png" alt="Sweatpants">
+                <p style="font-size: 1.2vw;">BBQ Sweatpants</p>
+                <p style="font-size: 1.2vw;">500 THB</p>
+            </div>
+            <div class="product-items">
+                <img class="product-img" src="img/cs.png" alt="Compression shirt">
+                <p style="font-size: 1.2vw;">BBQ Compression</p>
+                <p style="font-size: 1.2vw;">500 THB</p>
+            </div>
+            <div class="product-items">
+                <img class="product-img" src="img/whry.png" alt="Whey Protein">
+                <p style="font-size: 1.2vw;">BBQ Whey</p>
+                <p style="font-size: 1.2vw;">500 THB</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>    
+        <div class="modal-page">
+            <h2>Detail</h2><br>
+            <div class="modaldesc-content">
+                <img class="modaldesc-img" src="img/BTS.png" alt="T-shirt">
+                <div class="modaldesc-detail">
+                    <p style="font-size: 1.5vw;">Product name</p>
+                    <p style="font-size: 1.2vw;">500 THB</p><br>
+                    <p style="color: gray;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore mollitia, officia facere omnis recusandae aliquid cum excepturi nulla libero iure illum quis nostrum delectus saepe et expedita dolor nobis ducimus.</p><br>
+                    <div class="btn-control">
+                        <button class="btn">
+                            Close
+                        </button>
+                        <button class="btn btn-buy">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" style="display: none;">
+        <div class="modal-bg"></div>
+        <div class="modal-page">
+            <h2>My cart</h2><br>
+            <div class="cartlist">
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="img/BTS.png" alt="T-shirt">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p><br>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="img/BTS.png" alt="T-shirt">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p><br>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+                <div class="cartlist-items">
+                    <div class="cartlist-left">
+                        <img src="img/BTS.png" alt="T-shirt">
+                        <div class="cartlist-detail">
+                            <p style="font-size: 1.5vw;">Product name</p>
+                            <p style="font-size: 1.2vw;">500 THB</p><br>
+                        </div>
+                    </div>
+                    <div class="cartlist-right">
+                        <p class="btnc">-</p>
+                        <p style="margin: 0 20px">1</p>
+                        <p class="btnc">+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-control">
+                <button class="btn">
+                    Cancel
+                </button>
+                <button class="btn btn-buy">
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
